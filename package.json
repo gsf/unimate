@@ -1,0 +1,16 @@
+{
+  "name": "unimate",
+  "version": "0.0.0",
+  "description": "A robot",
+  "homepage": "https://github.com/gsf/unimate",
+  "author" : "Gabriel Farrell <g@grrawr.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gsf/unimate.git"
+  },
+  "main": "unimate.js",
+  "dependencies": {
+    "n0d3": "0.0.1",
+    "n0d3-ping": "0.0.1"
+  }
+}
