@@ -10,7 +10,7 @@
   },
   "main": "unimate.js",
   "dependencies": {
-    "n0d3": "0.0.1",
-    "n0d3-ping": "0.0.1"
+    "n0d3": "0.0.2",
+    "n0d3-ping": "0.0.2"
   }
 }
