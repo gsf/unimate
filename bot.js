@@ -1,12 +1,17 @@
 var bot = require('n0d3')();
 
-bot.use(require('n0d3-ping'));
+bot.name = 'unimate';
 
-bot.join({
-  campfire: {
-    ssl: true,
-    token: process.env.CF_TOKEN,
-    account: process.env.CF_ACCOUNT,
-    room: process.env.CF_ROOM
-  }
-})
+bot.use(
+  require('n0d3-ping')
+);
+
+bot.join(
+  require('n0d3-client-irc')({
+    network: 'chat.freenode.net',
+    channels: ['#mariposa'],
+    userName: 'unimate',
+    password: process.env.IRCPASS,
+    sasl: true
+  })
+);
