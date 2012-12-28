@@ -12,6 +12,7 @@
   "dependencies": {
     "n0d3": "0.0.4",
     "n0d3-client-irc": "0.0.1",
+    "n0d3-heroku": "0.0.3",
     "n0d3-ping": "0.0.3"
   },
   "scripts": {

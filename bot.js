@@ -3,7 +3,8 @@ var bot = require('n0d3')();
 bot.name = 'unimate';
 
 bot.use(
-  require('n0d3-ping')
+  require('n0d3-ping'),
+  require('n0d3-heroku')
 );
 
 bot.join(
