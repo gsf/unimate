@@ -1,9 +1,9 @@
 {
   "name": "unimate",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A robot",
   "homepage": "https://github.com/gsf/unimate",
-  "author" : "Gabriel Farrell <g@grrawr.com>",
+  "author": "Gabriel Farrell <g@grrawr.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/gsf/unimate.git"
@@ -14,8 +14,8 @@
     "n0d3-client-irc": "0.0.1",
     "n0d3-ping": "0.0.3"
   },
-  "scripts": { 
-    "start": "bot.js" 
+  "scripts": {
+    "start": "bot.js"
   },
   "engines": {
     "node": "0.8.x"
