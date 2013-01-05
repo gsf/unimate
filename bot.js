@@ -4,6 +4,7 @@ var irc = require('n0d3-client-irc');
 bot.name = 'unimate';
 
 bot.use(
+  require('n0d3-date'),
   require('n0d3-ping'),
   require('n0d3-heroku')
 );
